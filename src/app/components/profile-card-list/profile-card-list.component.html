@@ -1,5 +1,9 @@
-<div class="profile-card-section">
-    <ng-container *ngFor="let item of items">
-        <app-profile-card [item]="item"></app-profile-card>
-    </ng-container>
+<div class="container p-0">
+    <div class="row m-0 justify-content-center align-items-center profile-card-section">
+        <ng-container *ngFor="let item of items">
+            <div class="col my-3 text-center">
+                <app-profile-card [item]="item"></app-profile-card>
+            </div>
+        </ng-container>
+    </div>
 </div>

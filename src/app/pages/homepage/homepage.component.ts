@@ -7,7 +7,7 @@ import { TeamMember } from 'src/app/models';
   styleUrls: ['./homepage.component.scss'],
 })
 export class HomepageComponent implements OnInit {
-  constructor() {}
+  constructor() { }
 
   teamMembers: Array<TeamMember> = [
     {
@@ -17,17 +17,17 @@ export class HomepageComponent implements OnInit {
       title: 'Team Leader & Full Stack Developer',
       socialAccounts: [
         {
-          iconClass: 'fa fa-instagram',
-          link: 'https://instagram.com/ismetkizgin',
+          iconClass: 'fa fa-github',
+          link: 'https://github.com/ismetkizgin',
         },
-      ],
-    },
-    {
-      firstName: 'İsmet',
-      lastName: 'Kizgin',
-      imgUrl: 'assets/images/ismetkizgin.jpg',
-      title: 'Team Leader & Full Stack Developer',
-      socialAccounts: [
+        {
+          iconClass: 'fa fa-linkedin',
+          link: 'https://www.linkedin.com/in/ismetkizgin/',
+        },
+        {
+          iconClass: 'fa fa-link',
+          link: 'https://ismetkizgin.com.tr',
+        },
         {
           iconClass: 'fa fa-instagram',
           link: 'https://instagram.com/ismetkizgin',
@@ -35,30 +35,70 @@ export class HomepageComponent implements OnInit {
       ],
     },
     {
-      firstName: 'İsmet',
-      lastName: 'Kizgin',
-      imgUrl: 'assets/images/ismetkizgin.jpg',
-      title: 'Team Leader & Full Stack Developer',
+      firstName: 'Mehmet Ayberk',
+      lastName: 'Çakar',
+      imgUrl: 'assets/images/ayberkcakar.png',
+      title: 'Full Stack Developer',
       socialAccounts: [
         {
+          iconClass: 'fa fa-github',
+          link: 'https://github.com/AyberkCakar',
+        },
+        {
+          iconClass: 'fa fa-linkedin',
+          link: 'https://www.linkedin.com/mwlite/in/ayberkcakar',
+        },
+        {
+          iconClass: 'fa fa-link',
+          link: 'https://www.ayberkcakar.com',
+        },
+        {
           iconClass: 'fa fa-instagram',
-          link: 'https://instagram.com/ismetkizgin',
+          link: 'https://www.instagram.com/ayberkcakar/',
         },
       ],
     },
     {
-      firstName: 'İsmet',
-      lastName: 'Kizgin',
-      imgUrl: 'assets/images/ismetkizgin.jpg',
-      title: 'Team Leader & Full Stack Developer',
+      firstName: 'Furkan',
+      lastName: 'Söğüt',
+      imgUrl: 'assets/images/furkansogut.jpg',
+      title: 'Frontend Developer',
       socialAccounts: [
         {
+          iconClass: 'fa fa-github',
+          link: 'https://github.com/frknsgt',
+        },
+        {
+          iconClass: 'fa fa-linkedin',
+          link: 'https://www.linkedin.com/in/furkan-sogut/',
+        },
+        {
           iconClass: 'fa fa-instagram',
-          link: 'https://instagram.com/ismetkizgin',
+          link: 'https://instagram.com/frknsgt',
+        },
+      ],
+    },
+    {
+      firstName: 'Kadir Can',
+      lastName: 'Karademir',
+      imgUrl: 'assets/images/kadircankarademir.jpg',
+      title: 'Backend Developer',
+      socialAccounts: [
+        {
+          iconClass: 'fa fa-github',
+          link: 'https://github.com/CanKadirKarademir',
+        },
+        {
+          iconClass: 'fa fa-linkedin',
+          link: 'https://www.linkedin.com/in/kadircankarademir/',
+        },
+        {
+          iconClass: 'fa fa-instagram',
+          link: 'https://www.instagram.com/cankadirkarademir/',
         },
       ],
     },
   ];
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 }

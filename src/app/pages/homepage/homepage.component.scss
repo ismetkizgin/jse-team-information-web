@@ -1,7 +1,8 @@
 .homepage {
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(198, 72, 200, 1) 100%
-  );
+    background: rgb(13, 4, 63);
+    background: linear-gradient(180deg, rgba(13, 4, 63, 1) 0%, rgba(180, 67, 173, 1) 100%);
+    min-height: 100vh;
+    &__title {
+        font-family: "Baloo Paaji 2", cursive;
+    }
 }
