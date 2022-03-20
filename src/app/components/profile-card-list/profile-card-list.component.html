@@ -1,9 +1,12 @@
 <div class="container p-0">
-    <div class="row m-0 justify-content-center align-items-center profile-card-section">
-        <ng-container *ngFor="let item of items">
-            <div class="col my-3 text-center">
-                <app-profile-card [item]="item"></app-profile-card>
-            </div>
-        </ng-container>
+    <div class="row m-0 justify-content-center align-items-center card-list__screen">
+        <div class="row">
+            <h1 class="text-white text-center pt-3 card-list__title px-3 w-100">JUNIOR SOFTWARE ENGINEERING TEAM</h1>
+            <ng-container *ngFor="let item of items">
+                <div class="col my-3 text-center">
+                    <app-profile-card [item]="item"></app-profile-card>
+                </div>
+            </ng-container>
+        </div>
     </div>
 </div>

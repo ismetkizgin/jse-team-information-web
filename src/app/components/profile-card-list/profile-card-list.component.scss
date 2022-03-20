@@ -1,4 +1,9 @@
-.profile-card-section {
-    min-height: 91vh;
-    font-family: "Baloo Paaji 2", cursive;
+.card-list {
+    &__title {
+        font-family: "Baloo Paaji 2", cursive;
+    }
+    &__screen {
+        min-height: 100vh;
+        font-family: "Baloo Paaji 2", cursive;
+    }
 }
